@@ -1,11 +1,17 @@
+
+body{display: inline;}
 #Encabezado {
 	background-color: #5b7989;
 	color: white;
 	text-shadow: 2px 2px #02010a;
 	border: 1px solid #000000;
 	border-radius: 10px;
+<<<<<<< HEAD
 	height: 100px;
 		
+=======
+	
+>>>>>>> 1f42c446eae3f1e058e49d0854c799ce6f68442b
 }
 
 h1{
@@ -15,9 +21,22 @@ h1{
 
 nav{
 	border: solid 5px green;
+<<<<<<< HEAD
 	float:right;
 }
 
+=======
+	/*position: absolute;*/
+	top:30px;
+
+	
+
+}
+
+h1{
+	border: solid 5px red ;
+}
+>>>>>>> 1f42c446eae3f1e058e49d0854c799ce6f68442b
 
 #menu li {
 	background-color: #5b7989;
