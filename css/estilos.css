@@ -4,35 +4,26 @@
 	text-shadow: 2px 2px #02010a;
 	border: 1px solid #000000;
 	border-radius: 10px;
-
-
+	height: 100px;
 		
-}
-
-
-nav{
-	border: solid 5px green;
-	/*position: absolute;*/
-	width:40%;
-	top:30px;
-	left: 70%;
-	
-
 }
 
 h1{
 	border: solid 5px red ;
-	width: 70%;
+	float: left;	
 }
+
+nav{
+	border: solid 5px green;
+	float:right;
+}
+
 
 #menu li {
 	background-color: #5b7989;
 	text-shadow: none;
 	color: white;
 	display: inline;
-	border: solid 5px blue;
-
-
 	}
 
 #contenido{
