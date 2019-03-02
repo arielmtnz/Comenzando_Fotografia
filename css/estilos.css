@@ -1,3 +1,6 @@
+body{
+	background-color: #02010a;
+}
 
 #Encabezado {
 	background-color: #5b7989;
@@ -5,18 +8,26 @@
 	text-shadow: 2px 2px #02010a;
 	border: 1px solid #000000;
 	border-radius: 10px;
-	height: 100px;
+	display:flex;
+	flex-wrap: wrap;
+	
+	
+	
 }
 
 h1{
 	border: solid 5px red ;
-	float: left;	
 	text-align: center;
+	flex-grow: 2;
+
 }
 
 nav{
 	border: solid 5px green;
-	float: right;
+	text-align: center;
+	flex-grow: 2;
+	
+
 }
 
 
@@ -25,12 +36,15 @@ nav{
 	text-shadow: none;
 	color: white;
 	display: inline;
+	
 	}
 
-#contenido{
+/* #contenido{
+	display: flex;
 	margin: 1%;
+	width: 100%
 	text-align: center;
-}
+} */
 
 #inicio{
 	text-decoration-line: none;
@@ -40,6 +54,17 @@ nav{
 a:link {
 	color:white;
   }
+
+figure img{
+	width: 100%
+}
+
+
+  article{
+	display: flex;
+
+  }
+
 
 footer {
 	font-size: 0.8em;
