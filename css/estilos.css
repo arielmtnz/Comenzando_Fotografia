@@ -25,7 +25,7 @@ h1{
 nav{
 	border: solid 5px green;
 	text-align: center;
-	flex-grow: 2;
+	flex-grow: 1;
 	
 
 }
@@ -38,13 +38,17 @@ nav{
 	display: inline;
 	
 	}
-
-/* #contenido{
-	display: flex;
-	margin: 1%;
-	width: 100%
-	text-align: center;
-} */
+#contenido{
+		background-color: #82c3a6;		
+	} 
+	
+ #contenido>img{
+	
+	display:block;
+	
+	
+	
+} 
 
 #inicio{
 	text-decoration-line: none;
@@ -55,15 +59,9 @@ a:link {
 	color:white;
   }
 
-figure img{
+/* figure img{
 	width: 100%
-}
-
-
-  article{
-	display: flex;
-
-  }
+} */
 
 
 footer {
