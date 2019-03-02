@@ -6,23 +6,17 @@
 	border: 1px solid #000000;
 	border-radius: 10px;
 	height: 100px;
-
-	
-
 }
 
 h1{
 	border: solid 5px red ;
 	float: left;	
 	text-align: center;
-
 }
 
 nav{
 	border: solid 5px green;
 	float: right;
-
-
 }
 
 
